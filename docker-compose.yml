@@ -1,0 +1,23 @@
+version: "3.1"
+
+services:
+  redis:
+    image: redis:5
+    restart: always
+    ports:
+      - "6379:6379"
+  # mssql:
+  #   image: mcr.microsoft.com/mssql/server:2019-latest
+  # command:
+#     restart: always
+#     ports:
+#       - "1433:1433"
+#     environment:
+#       ACCEPT_EULA: "Y"
+#       # username is 'sa'
+#       SA_PASSWORD: "Secret123!"
+#     # volumes:
+#     #   - db-data:/
+
+# volumes:
+#   db-data:

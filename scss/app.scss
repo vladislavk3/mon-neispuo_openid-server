@@ -1,0 +1,9 @@
+//This file is converted to css
+@use "@material/theme" with (
+  $primary: black,
+  $secondary:$gray,
+  $on-primary:$lucky-point,
+  $on-secondary:$silver,
+);
+@use "@material/button";
+@import "./login-page.scss";
